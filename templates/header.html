@@ -1,0 +1,43 @@
+{% include "base.html" %}
+<body>
+
+
+		<!--================================HEADER==========================================-->
+		<div class="header">
+			<div class="top-toolbar"><!--header toolbar-->
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-sm-12 col-xs-12 pull-left">
+							<div class="social-content">
+								<ul class="social-links">
+									<li><a class="linkedin" href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+									<li><a class="twitter" href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+									<li><a class="facebook" href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+									<li><a class="youtube" href="#" target="_blank"><i class="fa fa-youtube"></i></a></li>
+									{% if 'username' not in session %}
+									<li><a href = "{{url_for('showLogin')}}">Login</a></li>
+									{% else %}
+									<li><a href = "{{url_for('gdisconnect')}}">Logout</a></li>
+									{% endif %}
+
+									<li><a href="{{url_for('showAll')}}">Home</a></li>
+
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-12 col-xs-12">
+							<p class="title">WELCOME TO SPORTA</p>
+						</div>
+						<div class="col-md-4 col-sm-12 col-xs-12 pull-right">
+							<div class="top-contact-info">
+								<ul>
+									<li class="toolbar-contact"><i class="fa fa-phone"></i> +2348109752565</li>
+									{% if 'username' in session %}
+									<li><a class="toolbar-new-listing" href="{{url_for('newCategory')}}"><i class="fa fa-plus-circle"></i> Add Category</a></li>
+									{% endif %}
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!--header toolbar end-->
