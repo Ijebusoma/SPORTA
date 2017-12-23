@@ -1,10 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-	 RESET 
---------------------------------------------------------------------------------------------------------------------------------
-*/
+
 html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,figure, figcaption, footer, header, hgroup,menu, nav, output, ruby, section, summary,time, mark, audio, video {
@@ -29,7 +26,7 @@ img{max-width:100%;}
 .clear{clear:both;}
 /*
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-	 TYPOGRAPHY 
+	 TYPOGRAPHY
 --------------------------------------------------------------------------------------------------------------------------------
 */
 body{font-family:'Montserrat',sans-serif;}
@@ -79,10 +76,6 @@ a:focus {
 .tx-center{text-align:center;}
 .tx-left{text-align:left;}
 .tx-right{text-align:right;}
-.title
-{
-color:blue;
-}
 /*
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 	 GENERAL STYLING
@@ -172,7 +165,7 @@ color:blue;
 	font-weight:400;
 	line-height:1;
 	}
-	
+
 .section-title-wrap .title-divider{
 	text-align:center;
 	margin-top:0;
@@ -195,7 +188,7 @@ color:blue;
 	color:#c4e2ea;
 	}
 
-	
+
 
 
 .page-title{}
@@ -204,11 +197,9 @@ color:blue;
 .breadcrums p{text-transform:uppercase;letter-spacing:2px;word-spacing:2px;}
 
 
-
-
 /*
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-	HEADER 
+	HEADER
 --------------------------------------------------------------------------------------------------------------------------------
 */
 
@@ -220,92 +211,16 @@ color:blue;
 
 
 
-	
-.categories-section{}
-.category-section-wrap{}
-.category-section-wrap.cat-style-1{}
-.category-section-wrap.cat-style-2{}
-.category-section-wrap .cat-wrap{padding:34px 30px;margin-bottom:30px;}
-.category-section-wrap .cat-wrap h5{font-weight:400;letter-spacing:1px;text-align:left;position:relative;}
-.category-section-wrap .cat-wrap h5 i{position: absolute;right: 0;line-height: 24px;font-size: 24px;}
-.category-section-wrap .cat-wrap .cat-list-wrap{padding-top:13px;}
-.category-section-wrap .cat-wrap .cat-list-wrap ul.cat-list{}
-.category-section-wrap .cat-wrap .cat-list-wrap ul.cat-list li{margin-top:11px;}
-.category-section-wrap .cat-wrap .cat-list-wrap ul.cat-list li a{text-align:left;text-transform:capitalize;position:relative;}
-.category-section-wrap .cat-wrap .cat-list-wrap ul.cat-list li a span{position:absolute;right:0;}
 
-/* cat style 2 */
-.category-section-wrap.cat-style-2 .cat-wrap{margin-bottom:0;padding:25px 30px;}
-.category-section-wrap.cat-style-2 .listing-border-bottom{margin-bottom:30px;}
-.category-section-wrap.cat-style-2 .cat-wrap .cat-list-wrap ul.cat-list li{margin-top:8px;}
-.category-section-wrap.cat-style-2 .cat-wrap h5{font-weight:400;letter-spacing:0;font-size:16px;}
-.category-section-wrap.cat-style-2 .cat-wrap h5 i{
-	position: relative;
-	margin-right:15px;
-	line-height: 40px;
-	font-size: 16px;
-	width:100px;
-	height:40px;
-	border-radius:50%;
-	text-align:center;
-	}
 
-/* cat style 3 */
-.category-section-wrap.cat-style-3 .cat-wrap{margin-bottom:0;padding:30px 30px 25px;}
-.category-section-wrap.cat-style-3 .main-wrap .listing-border-bottom{margin-bottom:30px;opacity:0;}
-.category-section-wrap.cat-style-3 .main-wrap:hover .listing-border-bottom{opacity:1;}
-.category-section-wrap.cat-style-3 .cat-wrap h5{font-weight:400;letter-spacing:0;font-size:16px;margin:16px 0 10px;text-align:center;}
-.category-section-wrap.cat-style-3 .cat-wrap p {padding:0 20px;}
-.category-section-wrap.cat-style-3 .cat-wrap p i{
-	position: relative;
-	margin-right:0;
-	line-height: 63px;
-	font-size: 24px;
-	width:100px;
-	height:60px;
-	border-radius:50%;
-	text-align:center;
-	}
+
 
 
 /*
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-	BLOG SECTION
+	FOOTER STYLING
 --------------------------------------------------------------------------------------------------------------------------------
 */
-
-.blog-wrapper.{}
-.blog-entry{position:relative;margin-bottom:30px;}
-.blog-entry .figure{}
-.blog-entry .figure img{}
-.blog-entry .entry-content{
-	position:absolute;
-	bottom:0;
-	padding:24px 30px 25px;
-	width:100%;
-	}
-.blog-entry .entry-content .entry-title{}
-.blog-entry .entry-content .entry-title h6{text-align:left;letter-spacing:0;}
-.blog-entry .entry-content .entry-metas{position:relative;}
-.blog-entry .entry-content .entry-metas a{text-align:left;}
-.blog-entry .entry-content .entry-metas a.date{font-size:13px;}
-.blog-entry .entry-content .entry-metas a.love,
-.blog-entry .entry-content .entry-metas a.permalink{
-	position:absolute;
-	width:40px;
-	height:40px;
-	line-height:42px;
-	border-radius:50%;
-	text-align:center;
-	top:-20px;
-	font-size:16px;
-	}
-.blog-entry .entry-content .entry-metas a.love{right:50px}
-.blog-entry .entry-content .entry-metas a.permalink{right:0;}
-
-
-
-
 
 .footer{}
 
@@ -319,7 +234,7 @@ color:blue;
 .footer-main{}
 .footer-logo{}
 .footer-logo a{}
-.footer-logo a img{width:auto;} 
+.footer-logo a img{width:auto;}
 .footer-intro{margin-top:15px;}
 .footer-intro p{text-align:left;margin-bottom:10px;max-width:285px;}
 .footer-intro a{text-align:left;text-transform:uppercase;}
@@ -353,41 +268,6 @@ color:blue;
 
 
 
-
-/*
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-	BLOG PAGES
---------------------------------------------------------------------------------------------------------------------------------
-*/
-.entry-wrap{margin-bottom:30px;}
-.entry-wrap .entry-figure{}
-.entry-wrap .entry-figure img{}
-.entry-wrap .entry-content {padding:30px;}
-.entry-wrap .entry-content .entry-title{}
-.entry-wrap .entry-content .entry-title h4{text-align:left;font-weight:400;letter-spacing:1px;}
-.entry-wrap .entry-content .entry-metas{margin-top:10px;}
-.entry-wrap .entry-content .entry-metas ul{text-align:left;margin:0 -10px;}
-.entry-wrap .entry-content .entry-metas ul li{display:inline-block;padding:0 10px;}
-.entry-wrap .entry-content .entry-metas ul li a{display:inline-block;}
-.entry-wrap .entry-content .entry-metas ul li i{margin-right:5px;}
-.entry-wrap .entry-content .entry-disc{margin-top:15px;}
-.entry-wrap .entry-content .entry-disc p{text-align:left;}
-.entry-wrap .entry-content .entry-readmore{margin-top:30px;text-align:left;}
-.entry-wrap .entry-content .entry-readmore a{display:inline-block;padding:10px 35px;border-radius:3px;}
-
-.comments-main-title{}
-.comments-main-title h5{font-weight:400;letter-spacing;2px;}
-.comments-main-title p{margin-top:5px;}
-.comment-author-name h5{font-weight:400;letter-spacing;2px;}
-.comment-content{padding:0 0 0 30px;}
-.comment-content .reply{position:absolute;right:15px;top:0;}
-.comments ul li{margin-top:30px;}
-.comment-box{background:#fff;padding:30px;position:relative;}
-.comment-box  .col-md-3,.comment-box .col-sm-3{padding-right:0;}
-.comment-box .col-md-9,.comment-box .col-sm-9{padding-left:0;}
-.comment-box  .comment-date p{font-size:12px;}
-.comment-box  .comment-disc{margin-top:10px;}
-
 /*
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 	ERROR 404 PAGE
@@ -401,4 +281,66 @@ color:blue;
 
 
 
+/*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	LISTING BOOTSTRAP MODALS
+--------------------------------------------------------------------------------------------------------------------------------
+*/
+.listing-modal-1.modal-dialog {width: 395px;	}
+.listing-modal-1 .modal-content {border-radius: 0;padding:40px 30px;background:#f7fbfc;}
+.listing-modal-1 .modal-header {border-bottom: none;padding: 0;}
+.listing-modal-1 .modal-header  .modal-title { text-align:left;line-height:1;color:#08c2f3;}
+.listing-modal-1 .modal-header .close {line-height: 1;margin-top: 3px;color:#08c2f3;opacity:1;font-size:24px;}
+.listing-modal-1 .modal-body {padding:30px 0 0 0;}
 
+.listing-login-form{}
+.listing-form-field{position:relative;}
+.listing-form-field i{position:absolute;right:0;width:47px;height:47px;top:0;border-left:1px solid #eee;line-height:47px;text-align:center;}
+.listing-form-field input{width:100%;text-transform:capitalize;}
+.listing-form-field input.form-field{padding:15px 15px;border:1px solid #eee;margin-bottom:10px;box-shadow:none;}
+.listing-form-field .checkbox{}
+.listing-form-field a{
+	display: inline-block;
+    float: right;
+    text-align: right;
+	position:relative;
+	top:-4px;
+	}
+.listing-register-form .listing-form-field a{float:none;top:-8px;color:#08c2f3;}
+.listing-form-field input.submit{border:none;border-radius:4px;color:#fff;text-transform:uppercase;}
+label {display: inline;}
+label.checkbox-lable{position:relative;top:-8px;color:#999;}
+.regular-checkbox {display: none;}
+
+.regular-checkbox + label {
+	border: 2px solid #08c2f3;
+	display: inline-block;
+	position: relative;
+	width:20px;
+	height:20px;
+	line-height:20px;
+	top:-4px;
+}
+
+
+.regular-checkbox:checked + label:after {
+	content: "\2714";
+	font-size: 12px;
+	position: absolute;
+	top: -2px;
+	color:#08c2f3;
+	left:0;
+
+	right:0;
+	line-height:20px;
+	text-align:center;
+}
+.bottom-links{}
+.bottom-links p{text-transform:capitalize;text-align:left;}
+.bottom-links p a{display:inline-block;margin-left:10px;color:#08c2f3;}
+
+.listing-form-social{margin-top:20px;}
+.listing-form-social ul{margin:0 -5px;text-align:left;}
+.listing-form-social ul li{display:inline-block;padding:0 3px;}
+.listing-form-social ul li a{width:40px;height:40px;line-height:40px;text-align:center;border-radius:4px;font-size:16px;}
+.listing-form-social ul li a i{}

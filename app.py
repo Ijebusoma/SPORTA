@@ -1,5 +1,5 @@
+#!/usr/bin/env python
 from flask import Flask, render_template, request, redirect, jsonify, url_for, flash
-
 from functools import wraps
 from sqlalchemy import create_engine, asc
 from sqlalchemy.orm import sessionmaker
@@ -199,7 +199,7 @@ def gdisconnect():
 def showAll():
     categories = session.query(Category).order_by(asc(Category.name))
     # items = session.query(Item).filter_by(category_id=categories.id).all()
-    items = session.query(Item).order_by(asc(Item.name))
+    items = session.query(Item).order_by(asc(Item.name)).slice(0, 5)
     return render_template('index-2.html', categories=categories, items=items)
 
 # ROUTE TO VIEW ALL ITEMS IN A CATEGORY
