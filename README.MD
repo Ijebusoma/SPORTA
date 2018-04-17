@@ -1,5 +1,5 @@
 
-(Live preview here)[http://35.178.28.147]
+[Live preview here](http://35.178.28.147)
 
 
 This is a Sport listing app built with Python, Flask and SQLAlchemy. The app supports user authentication and authorization using OAuth 2.0 and the Google Login API. 
