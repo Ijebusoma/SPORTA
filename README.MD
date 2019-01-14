@@ -1,5 +1,4 @@
 
-[Live preview here](http://35.178.28.147)
 
 
 This is a Sport listing app built with Python, Flask and SQLAlchemy. The app supports user authentication and authorization using OAuth 2.0 and the Google Login API. 
@@ -33,4 +32,5 @@ but cannot make changes.
 * Run the main project file, run: python app.py
 * View the app on your browser, go to: http://0.0.0.0:8000/
 
+P.S: This application was intended for educational purposes only, app had to be paused on Amazon cloud due to unsustainable running charges however repo includes screenshot of working app.
 
